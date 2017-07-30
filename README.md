@@ -3,7 +3,7 @@ A secure, multi-party, on-line chat application.
 
 KryptChat is a multi-party chat application built with the Tornado framework. Besides the 256 Bit AES encryption used to transport messages, it implement's ephemeral Diffy Hellman and replay detection. Message's are signed and authenticated via RSA(PKCS1 PSS).
 
-#Usage
+# Usage
 
 Before starting the chat client, you should edit the config.py configuration file and set the IP address of the server. If you are running the server on the same computer where your client will be running, then set the loacalhost address '127.0.0.1' as the server IP. Otherwise, if your server is running on another machine on the local network, then set the IP address of that machine as the server IP in the config.py file.
 
