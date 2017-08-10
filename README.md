@@ -1,7 +1,7 @@
 # KryptChat
 A secure, multi-party, on-line chat application. 
 
-KryptChat is a multi-party chat application built with the Tornado framework. Besides the 256 Bit AES encryption used to transport messages, it implement's ephemeral Diffy Hellman and replay detection. Message's are signed and authenticated via RSA(PKCS1 PSS).
+KryptChat is a multi-party chat application built with the Tornado framework. Besides the 256 Bit AES encryption used to transport messages, it implements ephemeral Diffy Hellman and replay detection to ensure complete security. Messages are signed and authenticated via RSA(PKCS1 PSS).
 
 # Usage
 
